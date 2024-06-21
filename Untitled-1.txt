@@ -1,0 +1,31 @@
+project-root/
+├── client/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── LoginPage.js
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   ├── index.css
+│   │   └── index.js
+│   ├── .gitignore
+│   ├── package.json
+│   └── README.md
+└── server/
+    ├── src/
+    │   ├── controllers/
+    │   │   └── authController.js
+    │   ├── models/
+    │   │   └── User.js
+    │   ├── routes/
+    │   │   └── authRoutes.js
+    │   ├── services/
+    │   │   └── authService.js
+    │   ├── app.js
+    │   └── server.js
+    ├── .gitignore
+    ├── package.json
+    └── README.md
