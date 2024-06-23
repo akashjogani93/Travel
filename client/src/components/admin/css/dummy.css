@@ -1,0 +1,1012 @@
+.main-input {
+    padding: 50px 11px;
+}
+
+.outer-border {
+    padding: 20px 10px;
+    border: 1px solid #B8C0CC;
+    border-radius: 10px;
+}
+
+.input-forms {
+    width: 28%;
+    height: auto;
+    max-height: 250px;
+    float: left;
+    margin: 10px 20px;
+}
+
+strong {
+    font-size: 13px;
+}
+
+.inputContainer1 {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 15px;
+    border: 0.4px solid #B8C0CC;
+    border-radius: 5px;
+}
+
+.inputContainer1 label {
+    position: absolute;
+    top: -18%;
+    background-color: #202936;
+    padding: 0px 6px;
+    font-size: 80%;
+    color: white;
+}
+
+/* input,
+select {
+    width: 100%;
+    background-color: #20293600;
+    border: 0;
+    color: white;
+    color: black;
+    outline: 0px;
+}
+
+select:focus {
+    border: 0;
+    outline: 0px;
+} */
+
+.inputContainer1 input select {
+    border: 0px;
+    outline: 0px;
+    width: 100%;
+    color: white;
+    /* color: black; */
+}
+
+/* option {
+    background-color: #202936;
+    color: white;
+} */
+
+
+
+
+/* .btn{
+    background-color: #223662;
+    color:white;s
+    width:80%;
+    border: 0;
+  } */
+/* 
+.Updatebutton {
+    background-color: #052c65;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 50px;
+} */
+
+.Updatebutton2 {
+    background-color: #a42626;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.Updatebutton1 {
+    background-color: #A5D7E8;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-left: -60px;
+    padding: 10px 50px;
+}
+
+
+
+/* input[type="file"]::-webkit-file-upload-button {
+    /* background-color: rgba(184, 192, 204, 0.33); */
+    /* background-color: rgba(131, 138, 149, 0.33); */
+    /* color: white; */
+    /* color: black;
+    border: 0;
+    outline: 0px;
+    border-radius: 4px;
+} */
+
+
+/* input forms end */
+
+
+/* table css start */
+/* div#example_length,
+th,
+td,
+div.dataTables_wrapper div.dataTables_info,
+div.dataTables_wrapper div.dataTables_filter label {
+    color: black !important;
+}
+div#example_length,
+th {
+    color: white !important;
+}
+
+input.form-control.form-control-sm,
+li#example_previous>a.page-link,
+li#example_next>a.page-link,
+select.form-select.form-select-sm {
+    background-color: #202936;
+    border: 0.4px solid #B8C0CC;
+    color: white;
+}
+
+input.form-control.form-control-sm:focus {
+    color: white;
+}
+
+th,
+td {
+    font-size: 14px !important;
+} */
+
+.act1,
+.act2,
+.act3 {
+    font-size: 18px !important;
+    margin: 0 10px;
+}
+
+.act1 {
+    color: rgb(9, 157, 226);
+}
+
+.act2 {
+    color: red;
+}
+
+.act3 {
+    color: green;
+}
+
+
+/* table css end */
+
+.inputContainer1.invalid {
+    border-color: red;
+}
+
+.inputContainer1.invalid>label {
+    color: red;
+}
+
+.outer-borderMain {
+    margin-top: 20px;
+    padding: 35px;
+    border: 1px solid #B8C0CC;
+    border-radius: 10px;
+}
+
+.dow {
+    background-color: #1959e3;
+    color: white;
+    padding: 6px 15px;
+    font-size: 8px;
+    margin-top: 10px;
+    outline: 0;
+    border: 0;
+}
+
+.imagebox>img {
+    height: 130px;
+    width: 130px;
+}
+
+.details {
+    width: 100%;
+    padding: 0 0 10px 150px;
+}
+
+.details>.detail {
+    display: flex;
+    float: left;
+    width: 50%;
+}
+
+.details>.detail>label {
+    width: 30%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.details>.detail>p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.803);
+}
+
+.imagebox>label {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px;
+}
+
+.cancel {
+    margin-top: 5px;
+    background-color: #223662;
+    color: white;
+    border: 0;
+    padding: 5px 10px;
+}
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.mobilealert {
+    font-size: 10px;
+    color: red;
+    margin-top: -5px;
+}
+
+.p-no {
+    width: 10%;
+    color: white;
+    float: left;
+}
+
+.p-input {
+    width: 90%;
+    /* border:0.4px solid #B8C0CC; */
+    border-radius: 4px;
+}
+
+.outer-borderAsign {
+    padding: 10px;
+    border: 1px solid #B8C0CC;
+    border-radius: 10px;
+}
+
+.maincont {
+    border: 1px solid #B8C0CC;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.input-formsPlot {
+    width: 100%;
+    height: 70px;
+    float: left;
+    margin: 10px 20px;
+}
+
+.button {
+    background-color: #5785ea;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 16px 18px;
+    font-size: 14px;
+}
+
+.remove-button {
+    background-color: #eb0808;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 16px 18px;
+    font-size: 14px;
+}
+
+.plotbox {
+    width: 31%;
+    float: left;
+    margin: 20px;
+    height: 150px;
+}
+
+.plotparent {
+    padding: 0 0 0 100px;
+}
+
+.imgplot {
+    width: 100%;
+    height: 150px;
+}
+
+.imgplot>img {
+    height: 145px;
+    width: 100%;
+}
+
+.plotData>p {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .searchName
+{
+    background-color: #202936;
+    margin:-10px 20px 0 20px;
+    padding:0;
+    border: 0.3px solid rgb(163, 163, 163);
+    height: auto;
+    max-height: 130px;
+    overflow-y: auto;
+    position: relative;
+    z-index: 999 !important;
+} */
+
+
+/* #list{ max-height: 200px;
+    overflow-y: auto;
+}
+#list ul{background-color: #eee;  cursor: pointer;  }
+#list li{ color: black; font: 12pt; padding: 8px;}
+#list li:hover{ color: white;  background-color: #b3b3ff;} */
+
+.saleplotimage {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.saleplotimagebox {
+    margin-top: -15px;
+    height: 100PX;
+    width: 100%;
+}
+
+
+/* sale plot */
+
+.main-inputNew {
+    padding: 20px 20px;
+    border: 1px solid white;
+    margin: 20px 10px 0 10px;
+    border-radius: 10px;
+}
+
+
+/* payment modal */
+
+.inputContainermodal {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 10px;
+    border: 0.4px solid black;
+    border-radius: 2px;
+}
+
+.inputContainermodal label {
+    position: absolute;
+    top: -18%;
+    background-color: white;
+    padding: 0px 6px;
+    font-size: 80%;
+    color: black;
+}
+
+.inputContainermodal input {
+    color: black;
+}
+
+.inputContainermodal select {
+    color: black;
+}
+
+.savebtn {
+    background-color: #2BA2C5;
+    color: white;
+    border: 0;
+    padding: 8px 20px;
+}
+
+.closebtn {
+    background-color: rgb(222, 61, 61);
+    color: white;
+    border: 0;
+    padding: 8px 20px;
+}
+
+
+/*  */
+
+
+
+.imageLabel {
+    position: relative !important;
+    top: -26px !important;
+    background-color: #202936;
+    padding: 0px 6px;
+    font-size: 80%;
+    color: rgb(217, 217, 217);
+    font-weight: 500;
+}
+
+/* input,
+select {
+    width: 100%;
+    background-color: #20293600;
+    border: 0;
+    color: white;
+    color: black;
+    outline: 0px;
+}
+
+select:focus {
+    border: 0;
+    outline: 0px;
+}
+
+
+
+option {
+    background-color: #202936;
+    color: white;
+} */
+
+.headings {
+    color: white;
+    margin: 15px 0;
+}
+
+.headings1 {
+    color: white;
+}
+
+.radio-container {
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /* Adjust spacing between radio buttons */
+}
+
+.radiobutton {
+    display: flex;
+}
+
+.input-radio {
+    width: auto !important;
+}
+
+
+/* Optional styling for radio buttons */
+
+.radio-container input[type="radio"] {
+    margin-right: 5px;
+    /* Adjust spacing between radio button and label */
+}
+
+.radiobutton>label {
+    /* color: white; */
+    color: black;
+}
+
+.close {
+    border-radius: 50%;
+    /* width: 20px; */
+    height: 20px;
+}
+
+.back {
+    background-color: #32e75f;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+
+
+/* Styling for the success message */
+
+.fa-regular1 {
+    width: 30px;
+    height: 30px;
+    margin-left: -58px;
+    color: green;
+}
+
+.full-page-success {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-message {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Background color for the message */
+    padding: 40px 80px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.success-message h2 {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+}
+
+.lightBackground {
+    background-color: #3a91ab !important;
+    font-size: 12px;
+    height: 45px;
+}
+
+.lightBackground1 {
+    background-color: #ba3f3f !important;
+    font-size: 12px;
+    height: 45px;
+}
+
+.successMessage {
+    color: green;
+}
+@media only screen and (max-width: 600px) {
+    .responsive-table {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .userdetails>.userdetail {
+        display: block !important;
+        width: 100% !important;
+    }
+    .userdetails {
+        width: 100% !important;
+    }
+    .subheadings {
+        font-size: 14px;
+    }
+    /* .mainborder {
+        padding: 10px !important;
+    } */
+    .subheadings {
+        padding-left: 10px;
+    }
+    .clear,
+    .Submitbutton,.Submitbutton1,
+    .Updatebutton,.Updatebutton1 {
+        padding: 0 !important;
+        width: 150px;
+        height: 34px;
+    }
+    .in-bx {
+        width: 96% !important;
+    }
+    #errorText{
+        color: red;
+
+    }
+    #successText{
+        color: green !important;
+    }
+    .inr-plot-bx,
+    .booked-plot-bx {
+        width: 40% !important;
+    }
+    .userdetails {
+        margin-top: 0 !important;
+        padding: 0px 0 0 20px !important;
+    }
+    .back {
+        margin: 10px 0;
+    }
+    .addmore,
+    .Submitbutton {
+        width: 145px;
+        height: 36px;
+        padding: 0 !important
+    }
+}
+
+.bx-main {
+    width: 100%;
+}
+
+.in-bx {
+    padding: 20px 10px;
+    /* border: 1px solid #B8C0CC; */
+    /* border: 1px solid #000000; */
+    border-radius: 10px;
+    width: 25%;
+    height: 90px;
+    margin-bottom: 20px !important;
+    float: left;
+    margin: 0 px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.bx1 {
+    background-color: #0A6847;
+}
+
+.bx2 {
+    background-color: #00215E;
+}
+
+.bx3 {
+    background-color: #F70776;
+}
+
+.bx4 {
+    /* background-color: #0B397E; */
+    background-color: #FDA403;
+}
+
+.bx5 {
+    background-color: #850F8D;
+}
+.bx6 {
+    background-color: #03AED2;
+}
+
+.icn-bx {
+    margin-right: 5px;
+}
+.in-bx:hover .icn-bx .fa-regular{
+color: #fff !important;
+}
+.in-bx:hover .icn-bx .fa-solid{
+    color: #fff !important;
+    }
+
+.plot-bx {
+    width: 100%;
+}
+
+.inr-plot-bx,
+.booked-plot-bx {
+    width: 18%;
+    float: left;
+    margin: 10px;
+}
+
+.inr-plot-bx {
+    background-color: rgb(143, 143, 143);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.booked-plot-bx {
+    background-color: rgb(4, 116, 0);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.home-icn {
+    font-size: 34px;
+    /* color: white; */
+    color: #fff;
+}
+
+.home-icn:hover {
+    color: white;
+}
+
+.icn-clr {
+    color: white;
+}
+
+.home-heading {
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    margin: 2px;
+    padding: 4px;
+    /* color: black; */
+    margin-left: 5px;
+}
+
+/* thead {
+    background-color: #00A9FF;
+} */
+
+/* .main {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.35s ease-in-out;
+} */
+
+
+
+
+
+.subheadings {
+    /* color: white; */
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.userdetails {
+    width: 70%;
+    margin-top: 10px;
+    padding: 20px 0 0 20px;
+}
+
+.userdetails>.userdetail {
+    display: flex;
+    float: left;
+    width: 50%;
+}
+
+.userdetails>.userdetail>label {
+    width: 65%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.userdetails>.userdetail>p {
+    font-size: 14px;
+    font-weight: 600;
+    /* color: rgba(255, 255, 255, 0.803); */
+    color: black;
+}
+
+.tex {
+    /* color: white; */
+    color: black;
+    width: 100%;
+}
+
+.tablecss {
+    margin-top: 10px;
+}
+
+
+
+
+
+.Submitbutton,.Submitbutton1 {
+    background-color: #00A9FF;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.Updatebutton1,.Updatebutton1{
+    background-color: #FF9F66;
+}
+
+.addmore {
+    background-color: #4a4a4a;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.action {
+    display: flex;
+}
+.icn-bx .fa-regular, .icn-bx .fa-solid{
+    color: #fff !important;
+}
+.clear {
+    /* background-color: rgb(191, 79, 79); */
+    background-color: #FF9F66;
+    color: #fff;
+    border: 0;
+    margin-left: -10px;
+    /* margin-top: 10px; */
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.images {
+    width: 100%;
+    /* padding:0 0 10px 100px; */
+}
+
+.imagebox {
+    /* border: 1px solid white; */
+    /* height: 180px; */
+    width: 180px;
+    /* border-radius: 3px; */
+    padding: 10px;
+    float: left;
+}
+
+.searchName {
+    background-color: #202936;
+    margin: -10px 20px 0 20px;
+    padding: 0;
+    border: 0.3px solid rgb(163, 163, 163);
+    height: auto;
+    max-height: 130px;
+    overflow-y: auto;
+    position: relative;
+    z-index: 999 !important;
+}
+.imagebox img,.imgplot img{
+    object-fit:cover;
+}
+/* input,select{
+    font-size: 13px;
+} */
+select:any-link{
+    margin-bottom: 8px !important;
+}
+.imagebox label{
+    color: #7d7d7d;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.searchName>li {
+    color: white;
+    padding: 5px 5px 5px 15px;
+    cursor: pointer;
+}
+
+.searchName>li:hover {
+    background-color: #1959e3;
+}
+
+.plottable {
+    max-height: 300px !important;
+    overflow-y: scroll;
+    /* margin-top: 20px; */
+}
+/* label{
+    font-weight: 600 !important;
+} */
+
+.deleteicon {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+
+.brancherror {
+    color: red;
+    font-size: 10px;
+}
+
+.plottable1 {
+    max-height: 700px !important;
+    overflow-y: scroll;
+    /* margin-top: 20px; */
+}
+
+.icn-cntnt  h4{
+    font-size:18px;
+}
+.in-bx{
+    padding-left: 20px;
+}
+.inr-plot-bx h6{
+    margin-bottom: 0px;
+}
+.booked-plot-bx h6{
+    margin-bottom: 0px;
+}
+.inr-plot-bx{
+    height:112px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.action .fa-pen-to-square {
+    color: #d5c000 !important;
+}
+.action .fa-eye{
+    color: #6FDCE3 !important;
+}
+
+.userdetail label{
+    color: #7d7d7d;
+}
+
+.inputContainermodal.invalid {
+    border-color: rgb(215, 54, 54);
+}
+
+.inputContainermodal.invalid>label {
+    color: rgb(219, 54, 54);
+}
+
+i.fa-solid.fa-trash-can.act2 {
+    /* background-color: red; */
+}
+
+.plotData>p {
+    font-size: 14px;
+    font-weight: 600;
+    /* color: rgba(255, 255, 255, 0.803); */
+    color: black;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    list-style-type: none;
+}
+
+.pagination li {
+    margin: 0 0.25rem;
+}
+
+.pagination a {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.pagination a:hover {
+    background-color: #e9ecef;
+    border-color: #ddd;
+}
+
+.pagination .active a {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.pagination .disabled a {
+    color: #6c757d;
+    cursor: not-allowed;
+}
+
+.in-bx {
+    padding-left: 20px;
+    margin-left: 20px;
+}

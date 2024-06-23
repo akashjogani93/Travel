@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@media (max-width: 480px) 
+{
+    .outtour {
+        display: block !important;
+        height: auto !important;
+        /* background-color: #f0a500 !important; */
+    }
+    .tour-image {
+        width: 100% !important;
+    }
+    .tour-details {
+        width: 100% !important;
+    }
+    .view-more-button
+    {
+        width:  100% !important;
+        color: black;
+    }
+    .tour-details > p
+    {
+        font-size: 12px;
+    }
+    /* aboutus */
+    .aboutus
+    {
+        height: auto !important;
+        margin-bottom: 50px;
+    }
+}
+
+body {
+    background-color: #2D2D2D !important;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0;
+}
+.navbar-brand {
+    font-size: 1.5rem; /* Adjust as needed */
+    font-weight: 600; /* Bold */
+    color: #f0a500 !important;
+    cursor: pointer;
+}
+.nav-link {
+    font-size: 1rem; /* Adjust as needed */
+    color: #ffffff !important;
+    transition: color 0.3s ease-in-out;
+}
+.nav-link >a{
+    text-decoration: none;
+    font-size: 1rem; /* Adjust as needed */
+    color: #ffffff !important;
+    transition: color 0.3s ease-in-out;
+}
+.nav-link>a:hover {
+    color: #f0a500 !important;
+  }
+  
+  /* Customize the toggle button */
+  .navbar-toggler {
+    border-color: #f0a500 !important;
+  }
+  
+.navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28176, 160, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.custom-carousel-image {
+    height: 600px; /* Set desired height */
+    object-fit: cover; /* Ensure the image covers the specified height without distortion */
+}
+
+.smallSlider
+{
+    margin-top: 40px;
+    height: 110px;
+}
+
+.smallSlider>img{
+    height: 100px;
+    /* padding: 0 50px; */
+}
+
+.mainlable{
+    margin-top: 25PX;
+}
+.mainlable>h3{
+    margin-top: 50px;
+    color: white;
+}
+
+.outtour{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    /* margin-top: 30px; */
+}
+
+.tour-image {
+    height: 400px;
+    width: 50%;
+}
+
+.tour-image>img{
+    height: 400px;
+    width: 100%;
+}
+
+.tour-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left; /* Center content horizontally */
+    height: 400px;
+    width: 50%;
+    padding: 20px; /* Add padding for breathing room */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Add a subtle shadow for a nicer look */
+    text-align: left; /* Right-align the content */
+}
+
+.tour-details > h4 {
+    font-weight: 600;
+    color: #f0a500;
+    margin-bottom: 10px; /* Space between heading and paragraph */
+}
+
+.tour-details > p {
+    line-height: 1.6; /* Improve readability with better line height */
+}
+
+.view-more-button
+{
+    background-color: #2D2D2D !important;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 20%;
+    color: white;
+}
+
+
+.custom-card {
+    /* width: 338.5px;
+    height: 500px; */
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+
+.custom-card-img {
+    /* width: 338.5px;
+    height: 500px; */
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust as needed */
+}
+
+.links{
+    margin-left: 29px;
+}
+
+.plantrip{
+    /* margin-top: 30px; */
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+
+.sunsetweseen {
+    margin-top: 30px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.sunsetweseen-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: none;
+}
+
+.footer{
+    margin-top: 30px;
+    /* height: 180px; */
+}
+
+.footer>h3{
+    font-size: 1.5rem; /* Adjust as needed */
+    font-weight: 600; /* Bold */
+    color: #f0a500 !important;
+    cursor: pointer;
+    text-align: left;
+}
+
+.footer>p{
+    font-size: 15px;
+    text-align: left;
+    color: white;
+}
+
+.footer>ul>li{
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    padding-top: 2px;
+}
+
+.footer>ul>li:hover{
+    color: #f0a500;
+}
+
+.footer>ul{
+    list-style: none;
+}
+.footer-icon {
+    margin-right: 10px;
+}
+.footer-social
+{
+    margin-top: 20px;
+}
+
+.icons-soci
+{
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.designa-dev
+{
+    color: rgb(195, 184, 184);
+    font-size: 10px;
+    margin-top: 2px;
+    font-weight: 300;
+}
+
+
+/* About Us */
+
+.aboutus
+{
+    height: 600px;
+    margin-bottom: 50px;
+}
+.aboutus>img
+{
+    width: 100%;
+    padding: 0;
+}
+
+.info-aboutus {
+    height: 300px;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Optional: to add space between each .infoimages */
+}
+
+.infoimages {
+    width: 30%;
+    margin-right: 2%;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    text-align: center; /* Centers text */
+}
+
+.infoimages>img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px; /* Adds space between img and h3 */
+}
+
+.infoimages>h3 {
+    font-size: 20px;
+    margin: 10px 0; /* Adds space between h3 and p */
+}
+
+.infoimages>p {
+    font-size: 12px;
+}
+
+.whatwedo{
+    margin-top: 30px;
+    /* height: 300px; */
+}
+
+.whatwedoinside
+{
+    margin: 10px;
+    background-color: white;
+    height: 300px;
+}
+
+
+/* contact us */
+
+
+.contactus
+{
+    margin: 10px 0px;
+    /* height: 300px; */
+    background-color: #ffffff;
+    padding: 10px 0 10px 100px;
+}
+
+.contact-head
+{
+    text-align: left;
+    font-weight: 600;
+    color: #f0a500;
+    font-size:22px;
+}
+
+.contact-details
+{
+    /* text-align: left; */
+    display: block;
+}
+
+.contact-det
+{
+    margin-top: 2px;
+    text-align: left;
+}
+
+.details-head
+{
+    color: #f0a500;
+    font-weight: 400;
+    font-size: 14px;
+}
+.details-info
+{
+    font-size: 12px;
+    font-weight: 400;
+    color: #302d2d;
+}
+
+.inputs-contact {
+    display: flex;
+    flex-direction: column;
+}
+.inputs-contact input,
+.inputs-contact textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-shadow: none;
+    transition: border 0.3s ease;
+    resize: none;
+}
+
+.inputs-contact input:focus,
+.inputs-contact textarea:focus {
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.inputs-contact input::placeholder,
+.inputs-contact textarea::placeholder {
+    color: #999;
+}
+
+.inputs-contact button {
+    padding: 8px 50px;
+    font-size: 14px;
+    background-color: #F7C940;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+.inputs-contact button:hover {
+    background-color: #c9a73f;
+}
+
+.map-image {
+    width: 100%; /* Adjust based on your layout needs */
+    height: 400px; /* Adjust based on your layout needs */
+    margin: 20px 0; /* Add margin if needed */
+}
+
+.map-image iframe {
+    width: 100%;
+    height: 100%;
+    border: none; /* Remove border for a clean look */
+}
+
+
+/* ADMIN SIDEBAR */
+
+.wrapper {
+    display: flex;
+}   
+
+
+#sidebarham{
+    top: 10px;
+    position: absolute;
+    z-index: 999;
+    transition-delay: 0.3s;
+}
+
+#sidebarham button{ 
+    background-color: rgb(77, 75, 75);
+    color: white;
+}
+
+#sidebar.expand {
+    display:block;
+    width: 260px;
+    min-width: 260px;
+    border-right: 1px solid #B8C0CC;
+    transition: left 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+aside#sidebar {
+    display: none;
+}
+
+.toggle-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    padding: 1rem 1.5rem;
+}
+
+.toggle-btn i {
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.sidebar-logo {
+    margin: auto 0;
+}
+
+.sidebar-logo a{
+    color: #FFF;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+#sidebar:not(.expand) .sidebar-logo,
+#sidebar:not(.expand) a.sidebar-link span {
+    display: none;
+}
+
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after {
+    border: solid;
+    border-width: 0 .075rem .075rem 0;
+    content: "";
+    display: inline-block;
+    padding: 2px;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.4rem;
+    transform: rotate(-135deg);
+    transition: all .2s ease-out;
+}
+
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
+    transform: rotate(45deg);
+    transition: all .2s ease-out;
+}
+
+.sidebar-nav {
+    padding:  10px 0;
+    /* flex: 1 1 auto; */
+}
+
+.sidebar-item>a,.sidebar-link {
+    /* padding: 12px 10px 12px 10px; */
+    padding: 10px;
+    color: #FFF;
+    display: block;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+    margin:0 10px;
+}
+
+
+.sidebar-item {
+    position: relative;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.sidebar-link i {
+    font-size: 1.1rem;
+    margin-right: .75rem;
+    margin-top: 2px;
+}
+
+a.sidebar-link:hover{
+    background-color: #223662;
+    border:0.5px solid #B8C0CC;
+    border-radius: 3px;
+    /* border-left: 3px solid #3b7ddd; */
+}
+
+i.crcls {
+ li {
+    list-style: none;
+}
+   font-size: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 480px) 
+{
+  
+        .links {
+            margin-left: 0px !important;
+        }
+        dl, ol, ul {
+            padding: 0;
+        }
+        .info-aboutus {
+            height: auto;
+            background-color: white;
+            width: 100%;
+            padding: 20px;
+            display: block;
+            justify-content: space-between;
+        }
+        .infoimages {
+            width: 100%;}
+            .contactus {
+                padding: 10px;
+            }
+            .contact-head {
+                font-size: 22px;
+            }
+            .details-head {
+                margin: 0;}
+    }
+    /* login.css */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+button.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+button.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+button.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+button.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #333333;
+}
+.btnss{
+    margin:0 20px;
+}
+.logins-text{
+    text-align: left;
+}

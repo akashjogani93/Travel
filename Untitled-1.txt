@@ -29,3 +29,114 @@ project-root/
     ├── .gitignore
     ├── package.json
     └── README.md
+
+
+# Remove node_modules from Git tracking
+git rm -r --cached server/node_modules
+
+# Update .gitignore to ignore node_modules
+echo "node_modules/" >> server/.gitignore
+
+# Commit the change
+git commit -m "Remove node_modules from Git tracking"
+
+# Push the changes to remote (if applicable)
+git push origin master
+
+
+server/
+├── node_modules/        (automatically generated, not included in Git)
+├── src/
+│   ├── config/               (configuration files)
+│   │   └── db.config.js      (database configuration)
+│   ├── controllers/          (controller functions)
+│   │   ├── authController.js (authentication logic)
+│   │   ├── userController.js (user management)
+│   │   └── ...                (other controllers)
+│   ├── middlewares/          (Express middleware functions)
+│   │   └── authMiddleware.js  (authentication middleware)
+│   ├── models/               (data models)
+│   │   ├── user.js           (example: user model)
+│   │   └── ...                (other models)
+│   ├── routes/               (API routes)
+│   │   ├── authRoutes.js      (authentication routes)
+│   │   ├── userRoutes.js      (user management routes)
+│   │   └── ...                (other routes)
+│   ├── services/             (business logic services)
+│   │   ├── authService.js     (authentication service)
+│   │   └── ...                (other services)
+│   ├── utils/                (utility functions)
+│   │   ├── logger.js         (logging utility)
+│   │   └── ...                (other utilities)
+│   ├── app.js or server.js   (Express application entry point)
+├── .gitignore            (ignores node_modules and other files from Git)
+├── package.json          (Node.js project configuration)
+└── package-lock.json     (locks the version of installed npm packages)
+
+server/
+├── node_modules/        (automatically generated, not included in Git)
+├── src/
+│   ├── config/               (configuration files)
+│   │   └── db.config.js      (database configuration)
+│   ├── controllers/          (controller functions)
+│   │   ├── authController.js (authentication logic)
+│   │   ├── userController.js (user management logic)
+│   │   ├── productController.js (product management logic)
+│   │   └── orderController.js (order management logic)
+│   ├── middlewares/          (Express middleware functions)
+│   │   ├── authMiddleware.js  (authentication middleware)
+│   │   └── errorMiddleware.js (error handling middleware)
+│   ├── models/               (data models)
+│   │   ├── User.js           (user model)
+│   │   ├── Product.js        (product model)
+│   │   └── Order.js          (order model)
+│   ├── routes/               (API routes)
+│   │   ├── authRoutes.js      (authentication routes)
+│   │   ├── userRoutes.js      (user management routes)
+│   │   ├── productRoutes.js   (product management routes)
+│   │   └── orderRoutes.js     (order management routes)
+│   ├── services/             (business logic services)
+│   │   ├── authService.js     (authentication service)
+│   │   ├── userService.js     (user management service)
+│   │   ├── productService.js  (product management service)
+│   │   └── orderService.js    (order management service)
+│   ├── utils/                (utility functions)
+│   │   └── validation.js     (input validation)
+│   ├── app.js                (Express application entry point)
+├── .gitignore            (ignores node_modules and other files from Git)
+├── package.json          (Node.js project configuration)
+└── package-lock.json     (locks the version of installed npm packages)
+
+
+
+react-client/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   └── ...
+│   │   ├── website/
+│   │   │   ├── Home.js
+│   │   │   ├── Products.js
+│   │   │   └── ...
+│   │   ├── admin/
+│   │   │   ├── Dashboard.js
+│   │   │   ├── Users.js
+│   │   │   └── ...
+│   │   ├── auth/
+│   │   │   ├── Login.js
+│   │   │   ├── Register.js
+│   │   │   └── ...
+│   │   └── ...
+│   ├── services/
+│   │   └── authService.js
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+└── package.json
+
+
